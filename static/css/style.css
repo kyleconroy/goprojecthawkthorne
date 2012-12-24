@@ -1,0 +1,123 @@
+#results {
+  padding: 0;
+  list-style-type: none;
+  margin: 3% auto 60px auto;
+}
+
+header {
+  margin: 0 auto;
+}
+
+header, #results {
+  width: 94%;
+  padding: 0 3%;
+  max-width: 450px;
+}
+
+body > div {
+  background: #5C0100;
+  padding: 3% 0;
+}
+
+#results li a.signup {
+  float: right;
+}
+
+#results li {
+  margin-bottom: 3%;
+  background: #fff;
+  padding: 10px;
+  border-top: 1px solid #aaa;
+}
+
+#results a.signup {
+  color: #333;
+}
+
+#results a.signup:visited {
+  color: #000;
+}
+
+#results a {
+  color: red;
+}
+
+#results li.available {
+  color: green;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Helvetica", sans-serif;
+  background: rgb(221,221,221);
+}
+
+h1 {
+  margin: 0;
+}
+
+h1, p {
+  color: #fff;
+  text-align: center;
+}
+
+form {
+  background: #fff;
+  padding: 0;
+  margin: 0 auto;
+}
+
+form > input[type="text"] {
+  width: 70%;
+  padding: 2%;
+  margin: 0;
+  border: 0;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 24px;
+}
+
+form > input[type="submit"] {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 1% 0;
+  width: 24%;
+  font-size: 20px;
+  color: #fff;
+  background: #B30000;
+}
+
+footer {
+  background: #5C0100;
+  text-align: center;
+  position: fixed;
+  padding-top: 10px;
+  color: #fff;
+  bottom: 0;
+  width: 100%;
+  max-width: 450px;
+  font-size: 14px;
+}
+
+footer a {
+  color: #fff;
+}
+
+footer > div {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 450px;
+}
+
+footer iframe, footer span {
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 5px;
+}
